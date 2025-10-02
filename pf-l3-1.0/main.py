@@ -1,6 +1,6 @@
 def fizzbuzz(n):
     if n % 3 == 0 and n % 5 == 0:
-        return "Fizzbuzz"   # en el test esperan "Fizzbuzz" con b minúscula
+        return "Fizzbuzz"   
     elif n % 3 == 0:
         return "Fizz"
     elif n % 5 == 0:
@@ -10,7 +10,7 @@ def fizzbuzz(n):
 
 
 def main():
-    for i in range(1, 1001):  # del 1 al 1000 inclusive
+    for i in range(1, 1001): 
         print(fizzbuzz(i))
 
 
